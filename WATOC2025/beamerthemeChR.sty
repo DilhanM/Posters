@@ -1,0 +1,169 @@
+% this style was created by Christoph Reimann
+\ProvidesPackage{beamerthemeChR} 
+\usepackage{helvet}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{tangocolors}
+\RequirePackage{uni_bonn_colors}
+\selectcolormodel{cmyk}
+\mode<presentation>
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamercolor{headline}{bg=oxford-blue}
+\setbeamercolor{footline}{bg=oxford-blue,fg=white}
+\setbeamerfont{footline}{size=\large,series=\tt}
+\setbeamercolor{separation line}{bg=oxford-blue}
+\setbeamercolor{title in headline}{fg=white}
+\setbeamercolor{author in headline}{fg=white}
+\setbeamercolor{institute in headline}{fg=white}
+
+% ??
+\setbeamercolor{framesubtitle}{fg=ta3orange, bg=white}
+\setbeamercolor{author in head/foot}{fg=ta2orange, bg=black}
+\setbeamercolor{title in head/foot}{fg=logoblue, bg=white}
+
+% 
+%\setbeamercolor*{normal text}{bg=uni-blau-25}
+\setbeamercolor*{normal text}{bg=oxford-grey}
+
+% blocks
+\setbeamercolor*{block body}{bg=white,fg=black}
+\setbeamercolor*{block title}{bg=oxford-blue,fg=white}
+\setbeamerfont{block title}{size=\large,series=\bf}
+\setbeamercolor{upper separation line head}{fg=oxford-red}
+
+% example blocks
+\setbeamercolor*{example body}{fg=ta3aluminium,bg=black}
+\setbeamercolor*{example text}{fg=ta3aluminium,bg=black}
+\setbeamercolor*{example title}{bg=taorange,fg=ta2gray}
+
+% 
+\setbeamercolor{alerted text}{fg=oxford-red}
+
+%\setbeamercolor{example text}{fg=taorange}
+%\setbeamercolor{structure}{fg=ta3skyblue}
+
+%\setbeamertemplate{itemize items}[triangle]
+%\setbeamertemplate{itemize items}[ball]
+%\setbeamertemplate{navigation symbols}{}  % no navigation on a poster
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setbeamertemplate{block begin}{
+%  \vskip.2ex
+%  \begin{beamercolorbox}[rounded=true,shadow=true,leftskip=1cm,colsep*=.75ex]{block title}%
+%    \usebeamerfont*{block title}\insertblocktitle
+%  \end{beamercolorbox}%
+%  {\ifbeamercolorempty[bg]{block body}{}{\nointerlineskip\vskip-1.5pt}}%
+%  \usebeamerfont{block body}%
+%  \begin{beamercolorbox}[rounded=true,shadow=true,colsep*=.75ex,sep=.75ex,vmode]{block body}%
+%    \ifbeamercolorempty[bg]{block body}{\vskip-.5ex}{\vskip-.75ex}\vbox{}%
+%  }
+%  \setbeamertemplate{block end}{
+%  \end{beamercolorbox}
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{headline}{  
+  \leavevmode
+
+  \begin{beamercolorbox}[wd=\paperwidth]{headline}
+
+    \includegraphics[width=\textwidth]{logos/banner 2.png}
+
+  \end{beamercolorbox}
+  \begin{beamercolorbox}[wd=\paperwidth]{lower separation line head}
+    
+%              \vskip4ex
+%              \centering
+%              \usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
+%              \usebeamercolor{author in headline}{\color{fg}\large{\insertauthor}\\[1ex]}
+%              \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}     
+
+    \begin{columns}[T]
+      \begin{column}{.03\paperwidth}
+      \end{column}
+      %\begin{column}{.205\paperwidth}
+        %\vspace{0.6cm}
+        %\begin{center}
+          %\hskip-14.8cm\includegraphics[height=8cm]{logos/sfb_813_logo.png}
+        %\end{center}
+        %\vspace{0.3cm}
+      %\end{column}
+      \begin{column}{.12\paperwidth}
+        \begin{flushleft}
+                \vskip -15pt
+%    \includegraphics[height=7.0cm]{logos/BITE.eps}\hspace{0.3cm}			%%% QR code to paper
+         
+	\end{flushleft}
+%	\begin{flushright}
+%	  \includegraphics[scale=1.2]{logos/500px-Leibniz-Universität_Hannover.pdf}\hspace{2cm}
+%        \end{flushright}
+
+      \end{column}
+      \begin{column}{.7\paperwidth}
+        \vskip-1ex
+        \centering
+        \usebeamercolor{title in headline}{\color{fg}\textbf{\LARGE{\inserttitle}}\\[1ex]}
+        \usebeamercolor{author in headline}{\color{fg}\large{\insertauthor}\\[1ex]}
+        \usebeamercolor{institute in headline}{\color{fg}\large{\insertinstitute}\\[1ex]}     
+      \end{column}
+      \begin{column}{.12\paperwidth}
+        \begin{flushright}
+        \vskip -15pt
+  %        \includegraphics[height=7.2cm]{logos/ox_brand_cmyk_rev.eps}\hspace{0.3cm}
+ %   \includegraphics[height=7.0cm]{logos/BITE.eps}\hspace{0.3cm}			%%% QR code to paper
+            \vskip 5pt
+	\end{flushright}
+%	\begin{flushright}
+        
+%        \end{flushright}
+
+      \end{column}
+      \begin{column}{.02\paperwidth}
+      \end{column}
+    \end{columns}
+
+   
+  \end{beamercolorbox}
+
+
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[wd=\paperwidth]{upper separation line foot}
+    \rule{0pt}{2pt}
+  \end{beamercolorbox}
+  
+  \leavevmode%
+  \begin{beamercolorbox}[ht=4ex,leftskip=1cm,rightskip=1cm]{footline}%{author in head/foot}%
+    % \texttt{https://www.chem.ox.ac.uk}
+    \hfill
+    \texttt{dilhan.manawadu@stfc.ac.uk}
+    \vskip1ex
+  \end{beamercolorbox}
+  \vskip0pt%
+  \begin{beamercolorbox}[wd=\paperwidth]{lower separation line foot}
+    \rule{0pt}{2pt}
+  \end{beamercolorbox}
+}
+
+\renewcommand{\familydefault}{\sfdefault} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Display a grid to help align images ... and it looks nice with this color scheme
+%\beamertemplategridbackground[0.5cm]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\mode<all>
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-PDF-mode: t
+%%% TeX-master: "poster"
+%%% End: 
