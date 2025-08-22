@@ -1,6 +1,6 @@
 # Poster Presentations
 
-This repository contains a collection of poster presentations I've given at various conferences and events. Each poster explores a unique topic in the field of artificial intelligence and machine learning.
+This repository contains a collection of poster presentations I've contributed to at various conferences and events. Unless explicitly stated otherwise, the posters were presented by me.
 
 ## List of Posters
 
