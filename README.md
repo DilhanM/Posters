@@ -25,6 +25,13 @@ This repository contains a collection of poster presentations I've contributed t
   *Date*: September 2023
   *This poster was presented by Declan Miller*  
   📄 [View Poster (PDF)](https://github.com/DilhanM/Posters/blob/master/ieee_qw_2023_poster/ieee_qw_2023_poster.pdf)
+- **Singlet fission in carotenoids**
+  *Presented at*: Electronic processes in organic materials Gordon Research Seminar and Conference [GRC 2022](https://www.grc.org/electronic-processes-in-organic-materials-conference/2022/)
+  *Location*: Tuscany, Italy
+  *Date*: June 2022
+  📄 [View Poster (PDF)](https://github.com/DilhanM/Posters/blob/master/GRC2022/GRC.pdf)
+
+ 
 
 
 Feel free to reach out if you have questions about the content.
