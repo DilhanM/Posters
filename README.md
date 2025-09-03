@@ -4,6 +4,11 @@ This repository contains a collection of poster presentations I've contributed t
 
 ## List of Posters
 
+- **Approximate quantum circuit compilation for proton-transfer kinetics on quantum processors**
+  *Presented at*: Coherent States in Molecular Simulations (COSMOS) Electronic Structure Theory for Dynamics Workshop [COSMOS 2025](https://cosmosproject.co.uk/news/el_str_4_dynamics/)
+  *Location*: Oxford, United Kingdom
+  *Date*: September 2025  
+  📄 [View Poster (PDF)](https://github.com/DilhanM/Posters/blob/master/COSMOS2025/COSMOS.pdf)
 - **Variational Quantum Nuclear-Electronic Dynamics: Proton Transfer on Quantum Computers**
   *Presented at*: 13th Triennial Congress of the World Association of Theoretical and Computational Chemists [WATOC 2025](https://watoc2025.no)
   *Location*: Oslo, Norway
