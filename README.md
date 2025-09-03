@@ -25,6 +25,11 @@ This repository contains a collection of poster presentations I've contributed t
   *Date*: September 2023
   *This poster was presented by Declan Miller*  
   📄 [View Poster (PDF)](https://github.com/DilhanM/Posters/blob/master/ieee_qw_2023_poster/ieee_qw_2023_poster.pdf)
+- **Photoexcited state dynamics of carotenoids**
+  *Presented at*: Royal Society of Chemistry Spectroscopy and Dynamics Group meeting [SDGM 2023](https://www.rsc.org/events/detail/8539/spectroscopy-and-dynamics-group-meeting)
+  *Location*: Durham, United Kingdom
+  *Date*: January 2023
+  📄 [View Poster (PDF)](https://github.com/DilhanM/Posters/blob/master/SDG2023/SDG.pdf)
 - **Singlet fission in carotenoids**
   *Presented at*: Electronic processes in organic materials Gordon Research Seminar and Conference [GRC 2022](https://www.grc.org/electronic-processes-in-organic-materials-conference/2022/)
   *Location*: Tuscany, Italy
