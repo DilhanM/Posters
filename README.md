@@ -1,9 +1,3 @@
-# Poster Presentations
-
-This repository contains a collection of poster presentations I've contributed to at various conferences and events. Unless explicitly stated otherwise, the posters were presented by me.
-
-## List of Posters
-
 - **Approximate quantum circuit compilation for proton-transfer kinetics on quantum processors**
   *Presented at*: Coherent States in Molecular Simulations (COSMOS) Electronic Structure Theory for Dynamics Workshop [COSMOS 2025](https://cosmosproject.co.uk/news/el_str_4_dynamics/)
   *Location*: Oxford, United Kingdom
@@ -28,15 +22,10 @@ This repository contains a collection of poster presentations I've contributed t
 - **Photoexcited state dynamics of carotenoids**
   *Presented at*: Royal Society of Chemistry Spectroscopy and Dynamics Group meeting [SDGM 2023](https://www.rsc.org/events/detail/8539/spectroscopy-and-dynamics-group-meeting)
   *Location*: Durham, United Kingdom
-  *Date*: January 2023
+  *Date*: January 2023  
   📄 [View Poster (PDF)](https://github.com/DilhanM/Posters/blob/master/SDG2023/SDG.pdf)
 - **Singlet fission in carotenoids**
   *Presented at*: Electronic processes in organic materials Gordon Research Seminar and Conference [GRC 2022](https://www.grc.org/electronic-processes-in-organic-materials-conference/2022/)
   *Location*: Tuscany, Italy
-  *Date*: June 2022
+  *Date*: June 2022  
   📄 [View Poster (PDF)](https://github.com/DilhanM/Posters/blob/master/GRC2022/GRC.pdf)
-
- 
-
-
-Feel free to reach out if you have questions about the content.
