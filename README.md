@@ -1,3 +1,9 @@
+# Poster Presentations
+
+This repository contains a collection of poster presentations I've contributed to at various conferences and events. Unless explicitly stated otherwise, the posters were presented by me.
+
+## List of Posters
+
 - **Approximate quantum circuit compilation for proton-transfer kinetics on quantum processors**
   *Presented at*: Coherent States in Molecular Simulations (COSMOS) Electronic Structure Theory for Dynamics Workshop [COSMOS 2025](https://cosmosproject.co.uk/news/el_str_4_dynamics/)
   *Location*: Oxford, United Kingdom
